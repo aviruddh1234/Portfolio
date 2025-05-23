@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Professional Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#">Your Name</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button id="mode-toggle" class="mode-toggle" aria-label="Toggle light/dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Hello, I'm Your Name</h2>
+                <p>Web Developer | Designer | Your Profession</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="your-photo.jpg" alt="Your Photo">
+                </div>
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>Write a compelling introduction about yourself here. Highlight your passion for your work, your key experiences, and what drives you. Make it personal and engaging.</p>
+                    <p>Detail your background, education, and any significant achievements. Explain what you enjoy doing and the kind of projects you're looking for.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <img src="icon-html5.png" alt="HTML5 Icon">
+                    <p>HTML5</p>
+                </div>
+                <div class="skill-item">
+                    <img src="icon-css3.png" alt="CSS3 Icon">
+                    <p>CSS3</p>
+                </div>
+                <div class="skill-item">
+                    <img src="icon-javascript.png" alt="JavaScript Icon">
+                    <p>JavaScript</p>
+                </div>
+                 <div class="skill-item">
+                    <img src="icon-python.png" alt="Python Icon">
+                    <p>Python</p>
+                </div>
+                <div class="skill-item">
+                    <img src="icon-sql.png" alt="SQL Icon">
+                    <p>SQL</p>
+                </div>
+                <div class="skill-item">
+                    <img src="icon-git.png" alt="Git Icon">
+                    <p>Git</p>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="project1-thumbnail.jpg" alt="Project 1 Thumbnail">
+                    <div class="project-info">
+                        <h3>Project Title 1</h3>
+                        <p>A brief description of your project. Explain its purpose and the technologies used.</p>
+                        <p><a href="#" target="_blank" class="project-link">View Project</a> <a href="#" target="_blank" class="project-link">GitHub Repo</a></p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="project2-thumbnail.jpg" alt="Project 2 Thumbnail">
+                     <div class="project-info">
+                        <h3>Project Title 2</h3>
+                        <p>A brief description of your project. Explain its purpose and the technologies used.</p>
+                        <p><a href="#" target="_blank" class="project-link">View Project</a> <a href="#" target="_blank" class="project-link">GitHub Repo</a></p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="project3-thumbnail.jpg" alt="Project 3 Thumbnail">
+                     <div class="project-info">
+                        <h3>Project Title 3</h3>
+                        <p>A brief description of your project. Explain its purpose and the technologies used.</p>
+                        <p><a href="#" target="_blank" class="project-link">View Project</a> <a href="#" target="_blank" class="project-link">GitHub Repo</a></p>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p class="contact-intro">I'd love to hear from you! Please fill out the form below or connect with me through social media.</p>
+            <form id="contact-form" action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <div class="social-links">
+                <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+                <p>LinkedIn: <a href="#" target="_blank">Your LinkedIn Profile</a></p>
+                <p>GitHub: <a href="#" target="_blank">Your GitHub Profile</a></p>
+                </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
